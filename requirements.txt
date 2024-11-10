@@ -2,9 +2,6 @@ fastapi
 pydantic
 typing
 pypdf2
-langchain
 uvicorn
 python-multipart
-openai
 python-dotenv
-langchain-community
