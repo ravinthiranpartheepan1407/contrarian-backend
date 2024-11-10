@@ -1,6 +1,5 @@
 fastapi
 pydantic
-typing
 pypdf2
 uvicorn
 python-multipart
