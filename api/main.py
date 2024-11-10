@@ -16,7 +16,7 @@ app = FastAPI()
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://contrarian.vercel.app"],  # Only allow the frontend origin
+    allow_origins=["https://contrarian.vercel.app", "https://contrarian-ventures-psn3s8uj2.vercel.app/"],  # Only allow the frontend origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
