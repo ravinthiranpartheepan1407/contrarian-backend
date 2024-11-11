@@ -82,7 +82,6 @@ def analyze_with_phi3(text: str) -> dict:
     # Enable self-signed HTTPS
     allowSelfSignedHttps(True)
 
-    # Your Phi-3 API key should be stored in environment variables
     api_key = os.getenv("API_KEY")
     if not api_key:
         raise Exception("PHI3_API_KEY environment variable not set")
